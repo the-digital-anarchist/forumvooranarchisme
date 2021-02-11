@@ -1,0 +1,31 @@
+{
+  "config": [
+    {
+      "type": "link",
+      "key": "getting-started",
+      "slug": "getting-started",
+      "title": "Start pagina",
+      "position": 0,
+      "id": "1",
+      "children": []
+    },
+    {
+      "type": "link",
+      "key": "resources",
+      "slug": "resources",
+      "title": "Lijst met resources",
+      "position": 1,
+      "id": "2",
+      "children": []
+    },
+    {
+      "type": "link",
+      "key": "links",
+      "slug": "links",
+      "title": "Links",
+      "position": 2,
+      "id": "3",
+      "children": []
+    }
+  ]
+}

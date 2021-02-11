@@ -1,0 +1,84 @@
+{
+  "name": "fva",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "dev:server": "node server.js",
+    "debug": "NODE_OPTIONS='--inspect' next",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production next start",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "create-indices": "npx babel-node ./indices/createIndices.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tinacms/api-git": "^0.31.0",
+    "@tinacms/git-client": "^0.32.0",
+    "@zeit/next-sass": "^1.0.1",
+    "algoliasearch": "^4.1.0",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fast-glob": "^3.2.2",
+    "file-loader": "^6.0.0",
+    "final-form-calculate": "^1.3.1",
+    "gray-matter": "^4.0.2",
+    "markdown-toc": "^1.2.0",
+    "moment": "^2.24.0",
+    "next": "^10.0.1",
+    "next-svgr": "^0.0.2",
+    "next-tinacms-github": "^0.33.0",
+    "next-tinacms-json": "^0.32.0",
+    "next-tinacms-markdown": "^0.32.0",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^5.0.0",
+    "node-telegram-bot-api": "^0.51.0",
+    "raw-loader": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-instantsearch-dom": "^6.4.0",
+    "react-markdown": "^5.0.2",
+    "react-syntax-highlighter": "^15.3.0",
+    "react-textarea-autosize": "^8.2.0",
+    "react-tinacms-editor": "^0.32.0",
+    "react-tinacms-github": "^0.32.0",
+    "react-tinacms-inline": "^0.32.0",
+    "remarkable": "^2.0.0",
+    "rss-parser": "^3.9.0",
+    "slugify": "^1.4.0",
+    "styled-components": "^5.1.1",
+    "styled-normalize": "^8.0.7",
+    "tinacms": "^0.32.0",
+    "typeface-source-code-pro": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@types/node": "^14.0.18",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "husky": "^4.2.3",
+    "hygen-next-tinacms-github": "https://github.com/dwalkr/hygen-next-tinacms-github",
+    "lint-staged": "^10.1.0",
+    "prettier": "2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json}": [
+      "prettier --write"
+    ]
+  }
+}

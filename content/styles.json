@@ -1,0 +1,30 @@
+{
+  "logo": "logo-round.png",
+  "siteName": "Forum voor Anarchisme",
+  "description": "Forum voor Anarchisme",
+  "fonts": {
+    "body": "Roboto, system-ui, sans-serif",
+    "heading": "Roboto, system-ui, sans-serif",
+    "monospace": "Roboto Mono, monospace"
+  },
+  "fontWeights": {
+    "body": 400,
+    "heading": 600,
+    "bold": 600
+  },
+  "lineHeights": {
+    "body": 1.5,
+    "heading": 1.125
+  },
+  "colors": {
+    "text": "#333333",
+    "background": "#ffffff",
+    "primary": "#111111",
+    "secondary": "#E83426",
+    "muted": "#F6F6F6",
+    "highlight": "#eef6ff",
+    "highlightBorder": "#777777",
+    "gray": "#777777",
+    "accent": "#E83426"
+  }
+}
