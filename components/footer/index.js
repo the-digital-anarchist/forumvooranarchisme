@@ -20,7 +20,7 @@ const Footer = ({ preview }) => {
           </section>
         </div>
       </FooterWrapper>
-      <EditLink />
+      {/* <EditLink /> */}
     </>
   )
 }

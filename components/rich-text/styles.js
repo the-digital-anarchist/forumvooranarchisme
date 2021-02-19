@@ -35,7 +35,7 @@ export const StyledRichText = styled.div`
   h2 {
     font-size: 32px;
     line-height: 36px;
-    color: #333333;
+    color: #1e1c1c;
     font-weight: 700;
     margin: 0;
     margin-bottom: 12px;

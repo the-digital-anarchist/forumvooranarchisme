@@ -49,7 +49,7 @@ const BlogPage = (props) => {
   usePlugin(form)
 
   return (
-    <Layout searchText="Search blog posts" showDocsSearcher searchIndex="tina-starter-alpaca-Blogs">
+    <Layout>
       <Container>
         <Head title={`${data.frontmatter.title} | Blog`} />
         <p>

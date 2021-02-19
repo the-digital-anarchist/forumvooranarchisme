@@ -12,7 +12,7 @@ export const LayoutStyled = styled.main`
     font-size: 40px;
     margin: 0;
     margin-bottom: 16px;
-    color: #333333;
+    color: #1e1c1c;
     line-height: 56px;
     font-weight: 700;
   }
@@ -25,6 +25,9 @@ export const LayoutBodyStyled = styled.main`
   padding: 0 20px;
   padding-bottom: 1px;
   padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
   ${({ splitView }) =>
     splitView &&
     css`
