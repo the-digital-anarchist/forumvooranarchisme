@@ -6,6 +6,7 @@ import { Normalize } from "styled-normalize"
 // import { AlpacaGitHubClient } from "../utils/githubClient"
 import { NextGithubMediaStore } from "next-tinacms-github"
 import { GithubClient } from "react-tinacms-github"
+import { StateProvider } from "../state/StateProvider"
 // eslint-disable-next-line no-undef
 require("typeface-source-code-pro")
 import "./app.css"
@@ -34,14 +35,16 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <TinaProvider cms={this.cms}>
-        <TinacmsGithubProvider
-          onLogin={enterEditMode}
-          onLogout={exitEditMode}
-          error={pageProps.error}
-        >
-          <Normalize />
-          <Component {...pageProps} />
-        </TinacmsGithubProvider>
+        <StateProvider>
+          <TinacmsGithubProvider
+            onLogin={enterEditMode}
+            onLogout={exitEditMode}
+            error={pageProps.error}
+          >
+            <Normalize />
+            <Component {...pageProps} />
+          </TinacmsGithubProvider>
+        </StateProvider>
       </TinaProvider>
     )
   }

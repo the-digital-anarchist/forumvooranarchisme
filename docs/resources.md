@@ -14,11 +14,11 @@ title: Lijst met resources
 - [Onderzoeksverslagen, boeken en meer - Library Genesis](http://libgen.rs/)
 - [massale en openbare toegang tot wetenschappelijke documenten - sci-hub](https://sci-hub.st/)
 
-
 ## Print en Drukwerk
 
 - [Laat iets printen! - Paperjam Collective](https://paperjamcollective.nl/)
 - [Drukwerkdeal - goed koop, flyers, posters ect](https://www.drukwerkdeal.nl/)
+- [Cheapo stickers - flyeralarm](https://www.flyeralarm.com/nl)
 
 ## Dump (nog in te delen)
 

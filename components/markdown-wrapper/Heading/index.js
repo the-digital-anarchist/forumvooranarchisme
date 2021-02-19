@@ -27,7 +27,7 @@ export default Headings
 const HeadingLink = styled.a`
   &.headingLink {
     line-height: 36px;
-    color: #333333;
+    color: #1e1c1c;
     font-weight: 700;
     margin: 0;
     margin-bottom: 12px;

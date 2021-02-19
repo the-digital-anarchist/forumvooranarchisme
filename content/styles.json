@@ -17,13 +17,13 @@
     "heading": 1.125
   },
   "colors": {
-    "text": "#333333",
+    "text": "#1e1c1c",
     "background": "#ffffff",
-    "primary": "#111111",
+    "primary": "#1e1c1c",
     "secondary": "#E83426",
     "muted": "#F6F6F6",
     "highlight": "#eef6ff",
-    "highlightBorder": "#777777",
+    "highlightBorder": "#1e1c1c",
     "gray": "#777777",
     "accent": "#E83426"
   }

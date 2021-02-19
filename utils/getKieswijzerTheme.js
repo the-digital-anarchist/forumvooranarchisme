@@ -1,34 +1,12 @@
 import matter from "gray-matter"
-import {
-  getFiles as getGithubFiles,
-  getGithubPreviewProps,
-  parseMarkdown,
-} from "next-tinacms-github"
 
-const getKieswijzerTheme = async (preview, previewData, contentDir) => {
+const getKieswijzerTheme = async (contentDir) => {
+  console.log("contentDir", contentDir)
   const fs = require("fs")
-  const files = preview
-    ? await getGithubFiles(
-        contentDir,
-        previewData.working_repo_full_name,
-        previewData.head_branch,
-        previewData.github_access_token
-      )
-    : await getLocalFiles(contentDir)
+  const files = await getLocalFiles(contentDir)
+  console.log("files", files)
   const posts = await Promise.all(
     files.map(async (file) => {
-      if (preview) {
-        const previewProps = await getGithubPreviewProps({
-          ...previewData,
-          fileRelativePath: file,
-          parse: parseMarkdown,
-        })
-        return {
-          fileName: file.substring(contentDir.length + 1, file.length - 3),
-          fileRelativePath: file,
-          data: previewProps.props.file?.data,
-        }
-      }
       const content = fs.readFileSync(`${file}`, "utf8")
       const data = matter(content)
       return {
