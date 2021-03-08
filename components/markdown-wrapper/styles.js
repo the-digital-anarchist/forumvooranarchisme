@@ -19,7 +19,7 @@ export const ReactMarkdowStyled = styled(ReactMarkdown)`
 
   ul {
     padding-left: 18px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     line-height: 1.5;
     li {
       margin-top: 0.5rem;
@@ -36,6 +36,24 @@ export const ReactMarkdowStyled = styled(ReactMarkdown)`
     font-weight: 700;
     margin: 0;
     margin-bottom: 12px;
+  }
+
+  h3 {
+    margin: 0;
+    a {
+      line-height: 0 !important;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    a {
+      text-decoration: none;
+    }
   }
 
   img {

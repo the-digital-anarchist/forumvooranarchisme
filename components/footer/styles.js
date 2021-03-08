@@ -24,7 +24,7 @@ export const FooterWrapper = styled.footer`
 `
 
 export const FooterLink = styled.a`
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -67,7 +67,12 @@ export const EditWithTinaButton = styled.a`
     color: ${({ theme }) => theme.colors.primary};
   }
   &:hover {
-    border-color: #77b1fa;
+    /* border-color: #77b1fa; */
+    background-color: #000;
+    color: #ffffff;
+    i {
+      color: #ffffff;
+    }
   }
   @media all and (min-width: 768px) {
     margin-right: 0;

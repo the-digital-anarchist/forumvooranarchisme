@@ -66,9 +66,7 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
         {/* <Link href="/features" passHref>
           <NavBarLink>Features</NavBarLink>
         </Link> */}
-        <Link href="https://forum.forumvooranarchisme.nl">
-          <NavBarLink>Forum</NavBarLink>
-        </Link>
+        <NavBarLink href="https://forum.forumvooranarchisme.nl">Forum</NavBarLink>
         <Link href="/docs" passHref>
           <NavBarLink>Resources</NavBarLink>
         </Link>

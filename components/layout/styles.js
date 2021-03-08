@@ -26,7 +26,6 @@ export const LayoutBodyStyled = styled.main`
   padding-bottom: 1px;
   padding-top: 16px;
   display: flex;
-  flex-direction: column;
   width: auto;
   ${({ splitView }) =>
     splitView &&

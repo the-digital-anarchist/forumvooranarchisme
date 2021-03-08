@@ -1,27 +1,20 @@
 ---
 date: '2019-07-10T07:00:00.000Z'
 position: 0
-last_edited: '2020-11-04T20:02:17.199Z'
-title: Lijst met resources
+last_edited: '2021-03-08T15:47:52'
+title: "Lijst met resources"
 ---
-
-## Boeken, artikelen/Books, articles
-
-- [Onderzoeksverslagen, boeken en meer - Library Genesis](http://libgen.rs/)
-
-### Onderzoeksverslagen/Research papers
-
-- [Onderzoeksverslagen, boeken en meer - Library Genesis](http://libgen.rs/)
-- [massale en openbare toegang tot wetenschappelijke documenten - sci-hub](https://sci-hub.st/)
-
 ## Print en Drukwerk
 
 - [Laat iets printen! - Paperjam Collective](https://paperjamcollective.nl/)
 - [Drukwerkdeal - goed koop, flyers, posters ect](https://www.drukwerkdeal.nl/)
 - [Cheapo stickers - flyeralarm](https://www.flyeralarm.com/nl)
 
-## Dump (nog in te delen)
+## Antifascisme
 
-### Lees lijsten
+- [40 Ways to Fight Fascists: Street-Legal Tactics for Community Activists](https://forum.forumvooranarchisme.nl/post/7644)
+- [Antifa: The Antifascist Handbook : Mark Bray](https://forum.forumvooranarchisme.nl/post/7643)
 
-- https://anarchopac.wordpress.com/2013/05/31/recommended-reading/
+## Rojava
+
+- [riseup4rojava.org](https://riseup4rojava.org)

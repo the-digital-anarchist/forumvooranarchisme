@@ -79,7 +79,7 @@ export const H3Styled = styled.h3`
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  margin: 0;
+  margin: 0 !important;
   padding: 10px 0;
   padding-left: 26px;
   position: relative;

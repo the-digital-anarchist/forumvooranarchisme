@@ -1,8 +1,12 @@
 import Link from "next/link"
 import { FooterWrapper, FooterLink, EditWithTinaButton } from "./styles"
 import { useCMS } from "tinacms"
+import { useRouter } from "next/router"
 
 const Footer = ({ preview }) => {
+  const router = useRouter()
+  const firstStringInPath = router.asPath.split("/")[1]
+  console.log(firstStringInPath)
   return (
     <>
       <FooterWrapper>
@@ -20,7 +24,7 @@ const Footer = ({ preview }) => {
           </section>
         </div>
       </FooterWrapper>
-      {/* <EditLink /> */}
+      {firstStringInPath === "docs" && <EditLink />}
     </>
   )
 }
