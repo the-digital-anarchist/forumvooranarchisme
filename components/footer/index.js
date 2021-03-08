@@ -6,7 +6,6 @@ import { useRouter } from "next/router"
 const Footer = ({ preview }) => {
   const router = useRouter()
   const firstStringInPath = router.asPath.split("/")[1]
-  console.log(firstStringInPath)
   return (
     <>
       <FooterWrapper>
