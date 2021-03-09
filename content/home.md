@@ -8,9 +8,9 @@ Welkome op de FvA website, deze site functioneert als een collectie van resource
 
 ## Wat is FvA
 
-FvA is een platform toegewijd aan de verspreiding en verluide van sociale en anarchistische ideeën, nieuws, demonstraties, solidariteit en zelf-bevrijdende materie.
+FvA is een platform gewijd aan de voortplanting en verspreiding van sociale en anarchistische ideeën, nieuws, demonstraties, solidariteit en zelfbevrijdende materiaal.
 
-Een platform om online tools en ruimte te bieden voor netwerken, communicatie en ontmoeting tussen organisaties, affiniteit groepen en individuen. Om de mogelijkheid te creëren voor een online community, delen van nieuws en informatie, plannen van acties, en voor sociale verbinding met gelijkgestemde.
+Een platform om online tools en ruimte te bieden voor netwerken, communicatie en ontmoeting tussen organisaties, affiniteitsgroepen en individuen. Om de mogelijkheid te creëren voor een online gemeenschap, het delen van nieuws en informatie, het plannen van acties, en voor sociale verbinding met gelijkgestemden.
 
 ## Wat we niet zijn
 
@@ -42,13 +42,13 @@ Welcome to the FvA website, this site functions as a collection of resources and
 
 ## What is FvA
 
-FvA is a platform dedicated to the dissemination and enlightenment of social and anarchist ideas, news, demonstrations, solidarity and self liberating matter.
+FvA is a platform dedicated to the propagation and spreading of social and anarchist ideas, news, demonstrations, solidarity and self liberating materials.
 
 A platform to provide online tools and space for networking, communication and meeting between organizations, affinity groups and individuals. To create the opportunity for an online community, sharing of news and information, planning of actions, and for social connection with like-minded people.
 
 ## What we are not
 
-- A replacement for existing organizations or platforms, FvA is not intended to replace or get in the way of organizations, but rather that FvA can be used as a loudspeaker for these organizations and support them.
+- A replacement for existing organizations or platforms, FvA is not intended to replace or get in the way of organizations, but rather to be used as a loudspeaker for these organizations and support them.
 - A member organization.
 
 ## Our channels
