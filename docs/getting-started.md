@@ -4,11 +4,26 @@ position: 0
 last_edited: '2021-03-08T15:47:52'
 title: Start pagina
 ---
-Welkome de FvA wiki, deze wiki functioneert als een collectie van resources en links gerelateerd aan Anarchisme.
+[English below]
 
-Deze wiki is een levend document en zal continue worden geupdate en bij gewerkt worden.
+Welkom op de FvA wiki, deze wiki fungeert als een verzameling van bronnen en links met betrekking tot het anarchisme.
 
-De wiki is volledig opencontent en kan door iedereen zelf worden bewerkt. 
-Dus mocht je zelf links of resources willen toevoegen druk dan op de "Edit website" knop rechts onder in. 
-Let wel op, het werkt via een github account en je mail zal dan te achterhalen zijn. 
-Gebruik daarom een wegwerp email als je anoniem wil blijven. 
+Deze wiki is een levend document en zal voortdurend worden bijgewerkt.
+
+De wiki is volledig open inhoud en kan door iedereen worden bewerkt. 
+Als u uw eigen links of bronnen wilt toevoegen, druk dan op de "Edit website" knop in de rechter benedenhoek. 
+Let op: het werkt via een github account en je mail zal traceerbaar zijn. 
+Gebruik dus een wegwerp e-mail of mail die niet terug te leiden is als je anoniem wilt blijven. 
+
+---
+
+[English]
+
+Welcome to the FvA wiki, this wiki functions as a collection of resources and links related to Anarchism.
+
+This wiki is a living document and will be updated continuously.
+
+The wiki is fully open content and can be edited by anyone. 
+If you want to add your own links or resources, press the "Edit website" button in the lower right corner. 
+Please note that it works through a github account and your mail will be traceable. 
+So use a disposable email if you want to stay anonymous. 
