@@ -57,7 +57,7 @@ A platform to provide online tools and space for networking, communication and m
 
 ### Chats
 
-- FvA telegram chat](https://t.me/forumvooranarchismeChat)
+- [FvA telegram chat](https://t.me/forumvooranarchismeChat)
 
 ### News & Signal boosting
 
