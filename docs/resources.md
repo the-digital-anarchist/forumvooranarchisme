@@ -4,6 +4,10 @@ position: 0
 last_edited: '2021-03-08T15:47:52'
 title: "Lijst met resources"
 ---
+
+## Protests & Activism
+
+- [Blur gezichten en verwijder meta data van foto's | image-scrubber](https://everestpipkin.github.io/image-scrubber/)
 ## Print en Drukwerk
 
 - [Laat iets printen! - Paperjam Collective](https://paperjamcollective.nl/)
