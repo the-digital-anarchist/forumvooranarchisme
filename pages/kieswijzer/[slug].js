@@ -122,7 +122,6 @@ const KieswijzerPage = (props) => {
     // console.log(value)
     // const choseOptions = value ? "agreed" : "notAgreed"
     setValueChoice(choseOption)
-    console.log(state)
   }
 
   useEffect(() => {

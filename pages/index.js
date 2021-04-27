@@ -19,7 +19,6 @@ const Page = ({ file, preview, styleFile }) => {
   const { data } = file
   const [styleData, styleForm] = useGlobalStyleForm(styleFile, preview)
 
-  console.log(data)
   return (
     <Layout theme={styleData}>
       <Head title="Home" />

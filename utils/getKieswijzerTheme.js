@@ -4,7 +4,6 @@ const getKieswijzerTheme = async (contentDir) => {
   console.log("contentDir", contentDir)
   const fs = require("fs")
   const files = await getLocalFiles(contentDir)
-  console.log("files", files)
   const posts = await Promise.all(
     files.map(async (file) => {
       const content = fs.readFileSync(`${file}`, "utf8")
