@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "antifascisme",
+      "title": "Antifascism(e)",
+      "id": "q90ay2h6m",
+      "children": []
+    },
+    {
+      "type": "link",
       "slug": "winkelsshops",
       "title": "Winkels/Shops",
       "id": "hrr0o7k6r",
