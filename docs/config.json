@@ -5,7 +5,15 @@
       "slug": "coops",
       "title": "Coops",
       "id": "fc61hgur5",
-      "children": []
+      "children": [
+        {
+          "type": "link",
+          "slug": "coops/voedselfood",
+          "title": "Voedsel/Food",
+          "id": "vdioby29w",
+          "children": []
+        }
+      ]
     },
     {
       "type": "link",
