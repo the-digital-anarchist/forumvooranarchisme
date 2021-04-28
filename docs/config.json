@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "winkelsshops",
+      "title": "Winkels/Shops",
+      "id": "hrr0o7k6r",
+      "children": []
+    },
+    {
+      "type": "link",
       "slug": "coops",
       "title": "Coops",
       "id": "fc61hgur5",
