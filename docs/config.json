@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "coops",
+      "title": "Coops",
+      "id": "fc61hgur5",
+      "children": []
+    },
+    {
+      "type": "link",
       "key": "getting-started",
       "slug": "getting-started",
       "title": "Start pagina",
