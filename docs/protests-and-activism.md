@@ -1,6 +1,6 @@
 ---
-title: Protests & Activism
-last_edited: '2021-05-01T13:14:33.848Z'
+title: Protests & Activisme
+last_edited: '2021-05-01T13:15:00.733Z'
 ---
 ### Tools:
 
