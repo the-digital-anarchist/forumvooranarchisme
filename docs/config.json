@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "protests-and-activism",
+      "title": "Protests & Activism",
+      "id": "o8sju28lo",
+      "children": []
+    },
+    {
+      "type": "link",
       "slug": "antifascisme",
       "title": "Antifascism(e)",
       "id": "q90ay2h6m",
