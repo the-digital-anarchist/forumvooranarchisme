@@ -20,16 +20,17 @@ Een platform om online tools en ruimte te bieden voor netwerken, communicatie en
 - Een ledenorganisatie.
 
 ## Link tree
-### Chats
 
-- [FvA telegram chat (Nederlands)](https://t.me/joinchat/RoujeYIpk6ngAkP-)
-- [FvA telegram chat (Engels)](https://t.me/joinchat/zQQGqd7j9Do0NzVk)
+### Telegram
+
+- [@fva_network](https://t.me/fva_network) | Overzicht van onze kanalen en groepen, zoals onze regio groepen of groepen per anarchistische stroming.
+- [Telegram kanaal](https://t.me/forumvooranarchisme) | Onze main kanaal voor lokaal nieuws, memes en meer met betrekking tot anarchisme in Nederland
+- De [Anarcho Krant](https://t.me/anarcho_krant) telegram kanaal, zelfde als op het forum maar dan in telegram
+
 ### FvA online:
 
 - Ons [forum](https://forum.forumvooranarchisme.nl), een sociale plek gerund door en voor anarchisten. Voor het delen van nieuws, events, memes en meer.
-- [Telegram kanaal](https://t.me/forumvooranarchisme) | Lokaal nieuws, memes en meer met betrekking tot anarchisme in Nederland
 - De [Anarcho Krant](https://forum.forumvooranarchisme.nl/c/anarcho_krant), dit is een kanaal op het forum gekoppeld aan Nederlandse anarchistische websites.
-- De [Anarcho Krant](https://t.me/anarcho_krant) telegram kanaal, zelfde als op het forum maar dan in telegram
 - [Instagram](https://www.instagram.com/forumvooranarchisme/)
 - [Twitter](https://twitter.com/AforumVoor)
 
@@ -53,20 +54,17 @@ A platform to provide online tools and space for networking, communication and m
 - A member organization.
 
 ## Link tree
-### Chat Groups
+### Telegram
 
-- [FvA telegram chat (Mostly Dutch)](https://t.me/joinchat/RoujeYIpk6ngAkP-)
+- [@fva_network](https://t.me/fva_network) | Overview of our channels and groups, such as our regional groups or groups per anarchist movement.
+Channels:
+- [Telegram kanaal](https://t.me/forumvooranarchisme) | Main channel
 - [FvA telegram chat (English only)](https://t.me/joinchat/zQQGqd7j9Do0NzVk)
 ### Fva online
 
 - Our [forum](https://forum.forumvooranarchisme.nl), a social place run by and for anarchists. For sharing news, events, memes and more.
-- [Telegram channel](https://t.me/forumvooranarchisme) | Local news, memes and more related to anarchism in the Netherlands
 - The [Anarcho Krant](https://forum.forumvooranarchisme.nl/c/anarcho_krant), this is a channel on the forum linked to Dutch anarchist websites (mostly news in Dutch).
-- The [Anarcho Krant](https://t.me/anarcho_krant) telegram channel, same as on the forum but in telegram.
 - [Instagram](https://www.instagram.com/forumvooranarchisme/)
 - [Twitter](https://twitter.com/AforumVoor)
-
-
-
 
 For contact or questions email kameraad@forumvooranarchisme.nl or leave a message on the forum or in the telegram group.
