@@ -8,7 +8,7 @@ const DocIndex = (props) => {
   const topDoc = props.navigation.data.config[0].slug
 
   useEffect(() => {
-    router.push(`/docs/${topDoc}`)
+    router.push(`/wiki/${topDoc}`)
   })
   return <p>Redirecting...</p>
 }
@@ -23,7 +23,7 @@ export const getStaticProps = async function ({ preview, previewData }) {
     try {
       allNestedDocsRemote = await getGithubPreviewProps({
         ...previewData,
-        fileRelativePath: "docs/config.json",
+        fileRelativePath: "wiki/config.json",
         parse: parseJson,
       })
 
@@ -31,7 +31,7 @@ export const getStaticProps = async function ({ preview, previewData }) {
         props: {
           navigation: {
             ...allNestedDocsRemote.props.file,
-            fileRelativePath: `docs/config.json`,
+            fileRelativePath: `wiki/config.json`,
           },
         },
       }
@@ -46,12 +46,12 @@ export const getStaticProps = async function ({ preview, previewData }) {
   }
 
   // Not in preview mode so we will get contents from the file system
-  const allNestedDocs = require("../../docs/config.json")
+  const allNestedDocs = require("../../wiki/config.json")
 
   return {
     props: {
       navigation: {
-        fileRelativePath: `docs/config.json`,
+        fileRelativePath: `wiki/config.json`,
         data: allNestedDocs,
       },
       preview: false,

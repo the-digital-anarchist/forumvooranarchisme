@@ -6,7 +6,7 @@ title: "Forum voor Anarchisme"
 
 [Link tree](#link-tree)
 
-Welkome op de FvA website, deze site functioneert als een collectie van resources en links gerelateerd aan Anarchisme.
+Welkome op de FvA website, deze site functioneert als een collectie van wiki en links gerelateerd aan Anarchisme.
 
 ## Wat is FvA
 
@@ -40,7 +40,7 @@ Voor contact of vragen mail naar kameraad@forumvooranarchisme.nl of laat een ber
 
 [English]
 
-Welcome to the FvA website, this site functions as a collection of resources and links related to Anarchism.
+Welcome to the FvA website, this site functions as a collection of wiki and links related to Anarchism.
 
 ## What is FvA
 

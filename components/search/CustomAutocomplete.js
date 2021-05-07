@@ -58,7 +58,7 @@ const Autocomplete = ({
   return (
     <SearchWrapper ref={wrapperRef}>
       <Search
-        placeholder={searchText || "Search our docs by topic…"}
+        placeholder={searchText || "Search our wiki by topic…"}
         type="search"
         value={currentRefinement}
         onChange={(event) => refine(event.currentTarget.value)}
@@ -105,7 +105,7 @@ const CustomHighlight = connectHighlight(({ highlight, attribute, hit }) => {
 })
 
 const Hit = ({ hit }) => (
-  <Link href="/docs/[...slug]" as={`/docs/${hit.slug}`} passHref>
+  <Link href="/wiki/[...slug]" as={`/wiki/${hit.slug}`} passHref>
     <HitItem>
       <HighlightTitle hit={hit} attribute="title" />
       <div>

@@ -25,8 +25,8 @@ const saveIndex = async (client, indexName, data) => {
 const createIndices = async () => {
   const client = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_ADMIN_KEY)
 
-  const docs = await fetchDocs()
-  await saveIndex(client, "tina-starter-alpaca-Docs", docs.map(mapContentToIndex))
+  const wiki = await fetchDocs()
+  await saveIndex(client, "tina-starter-alpaca-Docs", wiki.map(mapContentToIndex))
 
   const blogs = await fetchBlogs()
   await saveIndex(client, "tina-starter-alpaca-Blogs", blogs.map(mapContentToIndex))

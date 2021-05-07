@@ -4,14 +4,14 @@ var fs = require("fs")
 var path = require("path")
 
 export default async function fetchDocs() {
-  const directory = path.resolve("./docs")
+  const directory = path.resolve("./wiki")
   const files = await fg(directory + "/**/*.md")
 
   return files.map((fileName) => {
     const fullPath = path.resolve(directory, fileName)
 
     const slug = fullPath
-      .match(new RegExp(`.+?\/docs\/(.+?)$`))[1]
+      .match(new RegExp(`.+?\/wiki\/(.+?)$`))[1]
       .split(".")
       .slice(0, -1)
       .join(".")

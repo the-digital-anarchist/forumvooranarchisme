@@ -13,7 +13,7 @@ const Page = ({ file, preview, styleFile }) => {
   // useEffect(() => {
   //   const { pathname } = Router
   //   if (pathname == "/") {
-  //     Router.push("/docs")
+  //     Router.push("/wiki")
   //   }
   // })
   const { data } = file

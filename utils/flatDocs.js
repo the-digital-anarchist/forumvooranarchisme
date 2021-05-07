@@ -43,11 +43,11 @@
   this is what is used for the next aritical button
 */
 
-const flatDocs = (docs) =>
-  docs.reduce((newArray, item) => [...newArray, ...[item], ...flatChilds(item.children)], [])
+const flatDocs = (wiki) =>
+  wiki.reduce((newArray, item) => [...newArray, ...[item], ...flatChilds(item.children)], [])
 
-const flatChilds = (docs) =>
-  docs.reduce(
+const flatChilds = (wiki) =>
+  wiki.reduce(
     (a, b) => a.concat(b.children && b.children.length > 0 ? flatChilds(b.children) : b),
     []
   )

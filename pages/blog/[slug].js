@@ -65,7 +65,7 @@ const BlogPage = (props) => {
                 <h1>
                   <InlineTextField name="frontmatter.title" />
                 </h1>
-                {!props.preview && props.Alltocs.length > 0 && <Toc tocItems={props.Alltocs} />}
+                {/* {!props.preview && props.Alltocs.length > 0 && <Toc tocItems={props.Alltocs} />} */}
 
                 <InlineWysiwyg
                   name="markdownBody"

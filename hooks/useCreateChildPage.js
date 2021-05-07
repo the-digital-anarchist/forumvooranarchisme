@@ -40,7 +40,7 @@ const useCreateChildPage = async (allDocs) => {
           return el.slug === valSlug
         }
         // some function reference can be found here
-        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+        // https://developer.mozilla.org/en-US/wiki/Web/JavaScript/Reference/Global_Objects/Array/some
         let notValidTitle = flatDocs(allDocs).some(containsSlug)
         if (notValidTitle) return "titles must be unique, maybe add a number to the end?"
       },
@@ -66,10 +66,10 @@ const useCreateChildPage = async (allDocs) => {
         const slug = removeInvalidChars(slugify(title, { lower: true }))
 
         // get confile JSON file from github
-        const configFile = await cms.api.github.fetchFile("docs/config.json", true)
+        const configFile = await cms.api.github.fetchFile("wiki/config.json", true)
         const allNestedDocsRemote = JSON.parse(configFile.content)
         const category = router.query.slug[0]
-        const fileRelativePath = `docs/${router.query.slug[0]}/${slug}.md`
+        const fileRelativePath = `wiki/${router.query.slug[0]}/${slug}.md`
         const sha = configFile.sha
 
         const defaultItem = {
@@ -101,7 +101,7 @@ const useCreateChildPage = async (allDocs) => {
 
         // commit new json file to github
         await cms.api.github.commit(
-          "docs/config.json",
+          "wiki/config.json",
           sha,
           JSON.stringify(allNestedDocsRemote, null, 2),
           "Update from TinaCMS"
@@ -119,7 +119,7 @@ const useCreateChildPage = async (allDocs) => {
             })
           )
           .then(() => {
-            window.location.href = `/docs/${router.query.slug[0]}/${slug}`
+            window.location.href = `/wiki/${router.query.slug[0]}/${slug}`
           })
       },
     },

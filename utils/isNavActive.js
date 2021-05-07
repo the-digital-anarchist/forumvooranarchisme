@@ -1,4 +1,4 @@
-// doc is active if it is being clicked or any of its child docs
+// doc is active if it is being clicked or any of its child wiki
 export default function isActive(doc, currentSlug) {
   if (!doc) {
     return false

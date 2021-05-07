@@ -19,11 +19,11 @@ Gebruik dus een wegwerp e-mail of mail die niet terug te leiden is als je anonie
 
 [English]
 
-Welcome to the FvA wiki, this wiki functions as a collection of resources and links related to Anarchism.
+Welcome to the FvA wiki, this wiki functions as a collection of wiki and links related to Anarchism.
 
 This wiki is a living document and will be updated continuously.
 
 The wiki is fully open content and can be edited by anyone. 
-If you want to add your own links or resources, press the "Edit website" button in the lower right corner. 
+If you want to add your own links or wiki, press the "Edit website" button in the lower right corner. 
 Please note that it works through a github account and your mail will be traceable. 
 So use a disposable email if you want to stay anonymous. 

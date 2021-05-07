@@ -16,13 +16,6 @@
     },
     {
       "type": "link",
-      "slug": "antifascisme",
-      "title": "Antifascism(e)",
-      "id": "q90ay2h6m",
-      "children": []
-    },
-    {
-      "type": "link",
       "slug": "winkelsshops",
       "title": "Winkels/Shops",
       "id": "hrr0o7k6r",
@@ -45,6 +38,12 @@
     },
     {
       "type": "link",
+      "slug": "antifascisme",
+      "title": "Antifascisme",
+      "id": "fc61hguf3"
+    },
+    {
+      "type": "link",
       "key": "getting-started",
       "slug": "getting-started",
       "title": "Start pagina",
@@ -54,9 +53,9 @@
     },
     {
       "type": "link",
-      "key": "resources",
-      "slug": "resources",
-      "title": "Lijst met resources",
+      "key": "wiki",
+      "slug": "wiki",
+      "title": "Wiki",
       "position": 2,
       "id": "2",
       "children": []

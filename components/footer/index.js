@@ -17,13 +17,13 @@ const Footer = ({ preview }) => {
             <Link href="https://forum.forumvooranarchisme.nl" passHref>
               <FooterLink>Forum</FooterLink>
             </Link>
-            <Link href="/docs" passHref>
-              <FooterLink>Resources</FooterLink>
+            <Link href="/wiki" passHref>
+              <FooterLink>Wiki</FooterLink>
             </Link>
           </section>
         </div>
       </FooterWrapper>
-      {firstStringInPath === "docs" && <EditLink />}
+      {firstStringInPath === "wiki" && <EditLink />}
     </>
   )
 }

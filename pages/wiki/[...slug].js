@@ -69,7 +69,7 @@ const DocTemplate = (props) => {
                 <h1>
                   <InlineTextField name="frontmatter.title" />
                 </h1>
-                {!props.preview && props.Alltocs.length > 0 && <Toc tocItems={props.Alltocs} />}
+                {/* {!props.preview && props.Alltocs.length > 0 && <Toc tocItems={props.Alltocs} />} */}
                 <InlineWysiwyg
                   name="markdownBody"
                   sticky={"calc(var(--tina-toolbar-height) + var(--tina-padding-small))"}
@@ -105,7 +105,7 @@ const DocTemplate = (props) => {
 export const getStaticProps = async function ({ preview, previewData, params }) {
   const global = await getGlobalStaticProps(preview, previewData)
   const { slug } = params
-  const fileRelativePath = `docs/${slug.join("/")}.md`
+  const fileRelativePath = `wiki/${slug.join("/")}.md`
 
   // we need these to be in scope for the catch statment
   let previewProps
@@ -121,7 +121,7 @@ export const getStaticProps = async function ({ preview, previewData, params }) 
       })
       allNestedDocsRemote = await getGithubPreviewProps({
         ...previewData,
-        fileRelativePath: "docs/config.json",
+        fileRelativePath: "wiki/config.json",
         parse: parseJson,
       })
 
@@ -136,7 +136,7 @@ export const getStaticProps = async function ({ preview, previewData, params }) 
           // json for navigation form
           navigation: {
             ...allNestedDocsRemote.props.file,
-            fileRelativePath: `docs/config.json`,
+            fileRelativePath: `wiki/config.json`,
           },
           Alltocs,
           previewURL: `https://raw.githubusercontent.com/${previewData.working_repo_full_name}/${previewData.head_branch}`,
@@ -154,8 +154,9 @@ export const getStaticProps = async function ({ preview, previewData, params }) 
   }
 
   // Not in preview mode so we will get contents from the file system
-  const allNestedDocs = require("../../docs/config.json")
-  const content = await import(`@docs/${slug.join("/")}.md`)
+  const allNestedDocs = require("../../wiki/config.json")
+  const content = await import(`@wiki/${slug.join("/")}.md`)
+  console.log(content)
   const data = matter(content.default)
 
   // Create Toc (table of contents)
@@ -168,14 +169,14 @@ export const getStaticProps = async function ({ preview, previewData, params }) 
       // the markdown file
       ...global,
       file: {
-        fileRelativePath: `docs/${slug.join("/")}.md`,
+        fileRelativePath: `wiki/${slug.join("/")}.md`,
         data: {
           frontmatter: data.data,
           markdownBody: data.content,
         },
       },
       navigation: {
-        fileRelativePath: `docs/config.json`,
+        fileRelativePath: `wiki/config.json`,
         data: allNestedDocs,
       },
       Alltocs,
@@ -187,7 +188,7 @@ export const getStaticProps = async function ({ preview, previewData, params }) 
 
 export const getStaticPaths = async function () {
   const fg = require("fast-glob")
-  const contentDir = "docs/"
+  const contentDir = "wiki/"
   const files = await fg(`${contentDir}**/*.md`)
   return {
     fallback: true,

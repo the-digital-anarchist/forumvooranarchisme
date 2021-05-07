@@ -19,7 +19,7 @@ export class AlpacaGitHubClient extends GithubClient {
       method: "GET",
     })
 
-    // decode using base64 decoding (https://developer.mozilla.org/en-US/docs/Glossary/Base64)
+    // decode using base64 decoding (https://developer.mozilla.org/en-US/wiki/Glossary/Base64)
     request.content = decoded ? atob(request.content || "") : request.content
     return request
   }
