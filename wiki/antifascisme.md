@@ -5,7 +5,7 @@ last_edited: '2021-04-28T19:36:47.376Z'
 
 - Algemene AFA Nederland(https://afanederland.org/)
 
-### Groepen
+### Affiniteitsgroep
 
 - Rotterdam
     - [Antifascistische aktie Rotterdam](https://afarotterdam.noblogs.org/)

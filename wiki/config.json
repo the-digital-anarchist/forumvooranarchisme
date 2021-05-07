@@ -38,9 +38,12 @@
     },
     {
       "type": "link",
+      "key": "antifascisme",
       "slug": "antifascisme",
       "title": "Antifascisme",
-      "id": "fc61hguf3"
+      "id": "fc61hguf3",
+      "position": 0,
+      "children": []
     },
     {
       "type": "link",
@@ -48,7 +51,7 @@
       "slug": "getting-started",
       "title": "Start pagina",
       "position": 0,
-      "id": "0",
+      "id": "dasdkn232",
       "children": []
     },
     {
