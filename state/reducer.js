@@ -14,7 +14,7 @@ export const reducer = (state = initialState, action) => {
         const indexedValue = state.findIndex(equalsValue(action))
         const stateCopy = state
         stateCopy[indexedValue].value = action.themeValue.value
-        console.log(stateCopy)
+        // console.log(stateCopy)
         return stateCopy
       }
       return [...state, action.themeValue]

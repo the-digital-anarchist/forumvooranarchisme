@@ -5,10 +5,10 @@ import { getGithubPreviewProps, parseJson } from "next-tinacms-github"
 // Redirect to the first doc page
 const DocIndex = (props) => {
   const router = useRouter()
-  const topDoc = props.navigation.data.config[0].slug
+  // const topDoc = props.navigation.data.config[0].slug
 
   useEffect(() => {
-    router.push(`/wiki/${topDoc}`)
+    router.push(`/wiki/getting-started`)
   })
   return <p>Redirecting...</p>
 }

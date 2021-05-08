@@ -156,7 +156,6 @@ export const getStaticProps = async function ({ preview, previewData, params }) 
   // Not in preview mode so we will get contents from the file system
   const allNestedDocs = require("../../wiki/config.json")
   const content = await import(`@wiki/${slug.join("/")}.md`)
-  console.log(content)
   const data = matter(content.default)
 
   // Create Toc (table of contents)

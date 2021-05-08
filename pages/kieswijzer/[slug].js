@@ -199,7 +199,7 @@ const KieswijzerPage = (props) => {
  * Fetch data with getStaticProps based on 'preview' mode
  */
 export const getStaticProps = async function ({ params }) {
-  console.log(params)
+  // console.log(params)
   const { slug } = params
   const fileRelativePath = `content/kieswijzer/${slug}.md`
   let Alltocs = ""

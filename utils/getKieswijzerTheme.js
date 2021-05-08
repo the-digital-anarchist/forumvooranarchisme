@@ -1,7 +1,7 @@
 import matter from "gray-matter"
 
 const getKieswijzerTheme = async (contentDir) => {
-  console.log("contentDir", contentDir)
+  // console.log("contentDir", contentDir)
   const fs = require("fs")
   const files = await getLocalFiles(contentDir)
   const posts = await Promise.all(
