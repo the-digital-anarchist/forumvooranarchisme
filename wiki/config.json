@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "bibliothekenlibraries",
+      "title": "Bibliotheken/Libraries",
+      "id": "6qjnt0wa5",
+      "children": []
+    },
+    {
+      "type": "link",
       "slug": "propaganda",
       "title": "Propaganda",
       "id": "sz5o05ee8",
