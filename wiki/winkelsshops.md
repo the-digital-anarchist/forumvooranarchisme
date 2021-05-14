@@ -1,6 +1,6 @@
 ---
 title: Winkels/Shops
-last_edited: '2021-05-14T13:15:11.211Z'
+last_edited: '2021-05-14T13:20:15.897Z'
 ---
 ### Boeken/Books
 
@@ -14,9 +14,9 @@ _Voor bibliotheken zie [Bibliotheken/Libraries](https://forumvooranarchisme.nl/w
 
 * [Boekhandel Rosa](http://www.bookshoprosa.org)
 
-###   
-  
-Online
+### 
+
+### Online Winkels
 
 * [https://www.zwartekatkollektief.nl](https://www.zwartekatkollektief.nl "https://www.zwartekatkollektief.nl") | anti-authoritaire propagand, stickers en pamfletten
 * [https://webshop.vrijebond.org/](https://webshop.vrijebond.org/ "https://webshop.vrijebond.org/")
