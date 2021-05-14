@@ -1,13 +1,25 @@
 ---
 title: Winkels/Shops
-last_edited: '2021-05-03T10:06:04.008Z'
+last_edited: '2021-05-14T13:15:11.211Z'
 ---
-### Online
+### Boeken/Books
+
+_Voor bibliotheken zie [Bibliotheken/Libraries](https://forumvooranarchisme.nl/wiki/bibliothekenlibraries)_
+
+**Den Haag**
+
+* [Boekenwinkel Opstand!](https://opstand.noblogs.org/)
+
+**Groningen**
+
+* [Boekhandel Rosa](http://www.bookshoprosa.org)
+
+###   
+  
+Online
 
 * [https://www.zwartekatkollektief.nl](https://www.zwartekatkollektief.nl "https://www.zwartekatkollektief.nl") | anti-authoritaire propagand, stickers en pamfletten
 * [https://webshop.vrijebond.org/](https://webshop.vrijebond.org/ "https://webshop.vrijebond.org/")
-
-### 
 
 Duitsland/German Online
 
