@@ -8,6 +8,9 @@ title: "Forum voor Anarchisme"
 
 Welkome op de FvA website, deze site functioneert als een collectie van wiki en links gerelateerd aan Anarchisme.
 
+Ben je nieuw tot het Anarchisme en opzoek naar een korte introductie bekijk onze:    
+**[Anarchisme 101 | Een introductie](/wiki/anarchisme-101)**.
+
 ## Wat is FvA
 
 FvA is een platform gewijd aan de voortplanting en verspreiding van sociale en anarchistische ideeën, nieuws, demonstraties, solidariteit en zelfbevrijdende materiaal.

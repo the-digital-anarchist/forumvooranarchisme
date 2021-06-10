@@ -38,6 +38,77 @@
     },
     {
       "type": "link",
+      "slug": "anarchisme-101",
+      "title": "Anarchisme 101 | Een introductie",
+      "id": "fc61hgur6",
+      "children": [
+        {
+          "type": "link",
+          "slug": "anarchisme-101/wie-zijn-die-anarchisten",
+          "title": "Wie zijn die anarchisten",
+          "id": "1623331908435",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/anti-kapitalisme",
+          "title": "Anti Kapitalisme",
+          "id": "1623329116772",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/directe-actie",
+          "title": "Directe Actie",
+          "id": "1623329276770",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/wederzijdse-hulp",
+          "title": "Wederzijdse Hulp",
+          "id": "1623332030632",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/politie-en-gevangenissen",
+          "title": "Politie En Gevangenissen",
+          "id": "1623331897860",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/utopisch-dromen?",
+          "title": "Utopisch Dromen?",
+          "id": "1623332203627",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/werkt-anarchie?",
+          "title": "Werkt Anarchie?",
+          "id": "1623332373050",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/wie-zijn-wij?",
+          "title": "Wie Zijn Wij?",
+          "id": "1623332445147",
+          "children": []
+        },
+        {
+          "type": "link",
+          "slug": "anarchisme-101/hoe-te-beginnen",
+          "title": "Hoe Te Beginnen?",
+          "id": "1623332568863",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "link",
       "key": "antifascisme",
       "slug": "antifascisme",
       "title": "Antifascisme",
