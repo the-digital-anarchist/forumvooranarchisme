@@ -2,14 +2,16 @@
 title: "Forum voor Anarchisme"
 ---
 
-[English below]
+_English [here](#english)_
 
-[Link tree](#link-tree)
+**Welkom op de FvA website, deze site functioneert als een collectie van wiki en links gerelateerd aan Anarchisme.**
 
-Welkome op de FvA website, deze site functioneert als een collectie van wiki en links gerelateerd aan Anarchisme.
 
 Ben je nieuw tot het Anarchisme en opzoek naar een korte introductie bekijk onze:    
 **[Anarchisme 101 | Een introductie](/wiki/anarchisme-101)**.
+
+
+
 
 ## Wat is FvA
 
@@ -39,9 +41,8 @@ Een platform om online tools en ruimte te bieden voor netwerken, communicatie en
 
 Voor contact of vragen mail naar kameraad@forumvooranarchisme.nl of laat een bericht achter op het forum of in de telegram groep.
 
+## English
 ---
-
-[English]
 
 Welcome to the FvA website, this site functions as a collection of wiki and links related to Anarchism.
 
