@@ -9,8 +9,8 @@
     },
     {
       "type": "link",
-      "slug": "propaganda",
-      "title": "Propaganda",
+      "slug": "print-en-drukwerk",
+      "title": "Print en Drukwerk",
       "id": "sz5o05ee8",
       "children": []
     },
@@ -30,18 +30,10 @@
     },
     {
       "type": "link",
-      "slug": "coops",
-      "title": "Coops",
+      "slug": "cooperaties",
+      "title": "Coöperaties",
       "id": "fc61hgur5",
-      "children": [
-        {
-          "type": "link",
-          "slug": "coops/voedselfood",
-          "title": "Voedsel/Food",
-          "id": "vdioby29w",
-          "children": []
-        }
-      ]
+      "children": []
     },
     {
       "type": "link",
@@ -86,21 +78,21 @@
         },
         {
           "type": "link",
-          "slug": "anarchisme-101/utopisch-dromen?",
+          "slug": "anarchisme-101/utopisch-dromen",
           "title": "Utopisch Dromen?",
           "id": "1623332203627",
           "children": []
         },
         {
           "type": "link",
-          "slug": "anarchisme-101/werkt-anarchie?",
+          "slug": "anarchisme-101/werkt-anarchie",
           "title": "Werkt Anarchie?",
           "id": "1623332373050",
           "children": []
         },
         {
           "type": "link",
-          "slug": "anarchisme-101/wie-zijn-wij?",
+          "slug": "anarchisme-101/wie-zijn-wij",
           "title": "Wie Zijn Wij?",
           "id": "1623332445147",
           "children": []

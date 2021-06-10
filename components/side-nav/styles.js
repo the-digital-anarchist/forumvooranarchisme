@@ -52,6 +52,7 @@ export const NavItemLink = styled.a`
     active &&
     css`
       color: ${({ theme }) => theme.colors.primary};
+      text-decoration: underline;
       .dot {
         background-color: ${({ theme }) => theme.colors.primary};
       }

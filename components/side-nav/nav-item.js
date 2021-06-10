@@ -42,7 +42,7 @@ const NavItem = ({ itemData: { slug, children, title, type }, active, currentSlu
   return (
     <div>
       {type === "link" && (
-        <Link href={`/wiki/[...slug]`} as={`/wiki/${slug}`} passHref>
+        <Link key={slug} href={`/wiki/[...slug]`} as={`/wiki/${slug}`} passHref>
           {renderLink()}
         </Link>
       )}
@@ -51,12 +51,15 @@ const NavItem = ({ itemData: { slug, children, title, type }, active, currentSlu
       {children && (
         <NavGroup active={active || showChildrens}>
           {children.map((item, index) => (
-            <NavItem
-              itemData={item}
-              key={index}
-              active={currentSlugKey === item.slug}
-              currentSlug={currentSlug}
-            />
+            <>
+              {console.log(currentSlugKey === item.slug)}
+              <NavItem
+                itemData={item}
+                key={index}
+                active={currentSlugKey === item.slug}
+                currentSlug={currentSlug}
+              />
+            </>
           ))}
         </NavGroup>
       )}
