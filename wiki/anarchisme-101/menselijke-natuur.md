@@ -1,8 +1,8 @@
 ---
 title: Menselijke natuur
-last_edited: '2021-06-15T15:27:25.044Z'
+last_edited: '2021-06-15T15:34:43.529Z'
 ---
-### Zijn anarchisten naïef over menselijke natuur?
+### Zijn anarchisten naïef over de menselijke natuur?
 
 Het idee dat anarchisten naïef zijn over de aard van de mens is vreemd. Anarchisten denken dat mensen dieren zijn die in staat zijn tot (a) samenwerking, vriendelijkheid, liefde enz. en (b) onderdrukking, overheersing, uitbuiting enz. Het is door realisme over de menselijke natuur dat wij anarchisten zijn.
 
