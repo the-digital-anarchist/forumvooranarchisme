@@ -31,7 +31,7 @@
     {
       "type": "link",
       "slug": "cooperaties",
-      "title": "Coöperaties",
+      "title": "CoÃ¶peraties",
       "id": "fc61hgur5",
       "children": []
     },
@@ -41,6 +41,13 @@
       "title": "Anarchisme 101 | Een introductie",
       "id": "fc61hgur6",
       "children": [
+        {
+          "type": "link",
+          "slug": "anarchisme-101/menselijke-natuur",
+          "title": "Menselijke natuur",
+          "id": "arju6w62i",
+          "children": []
+        },
         {
           "type": "link",
           "slug": "anarchisme-101/wie-zijn-die-anarchisten",
