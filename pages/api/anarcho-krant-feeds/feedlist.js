@@ -26,7 +26,6 @@ const feedsList = [
   "https://onderstroom.red/feed",
   "https://opstand.noblogs.org/feed",
   "https://peterstormt.nl/author/ravotr/rss",
-  "https://socialisme.nu/feed",
   "https://tanarchos.nl/feed",
   "https://thebarricade.noblogs.org/feed",
   "https://vloerwerk.org/feed",
@@ -43,6 +42,16 @@ const feedsList = [
   "https://www.vrijebond.org/feed",
   "https://rumoer.noblogs.org/feed/",
   "https://lepelfabriek.nl/rss.xml",
+  "https://afarotterdam.noblogs.org/nieuws/feed",
+  "https://anamsterdam.noblogs.org/feed",
+  "https://madpride.nl/rss.xml",
+  // BE
+  "https://affverzet.wordpress.com/feed/",
+  "https://gentabc.noblogs.org/feed/",
+  "https://antistaatsblad.wordpress.com/feed",
+  "https://tabularasa.blackblogs.org/feed/",
+  "https://aboekenbeurs.gent/feed",
+  "https://anprim.org/feed",
   // 'https://lepelfabriek.nl/blog/index.php/feed', // Geen rss
   // 'https://lorem-rss.herokuapp.com/feed?unit=second&interval=30'
 ]
