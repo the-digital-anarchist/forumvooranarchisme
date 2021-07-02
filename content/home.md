@@ -10,9 +10,6 @@ _English [here](#english)_
 Ben je nieuw tot het Anarchisme en opzoek naar een korte introductie bekijk onze:    
 **[Anarchisme 101 | Een introductie](/wiki/anarchisme-101)**.
 
-
-
-
 ## Wat is FvA
 
 FvA is een platform gewijd aan de voortplanting en verspreiding van sociale en anarchistische ideeën, nieuws, demonstraties, solidariteit en zelfbevrijdende materiaal.
@@ -25,6 +22,10 @@ Een platform om online tools en ruimte te bieden voor netwerken, communicatie en
 - Een ledenorganisatie.
 
 ## Link tree
+
+### Discord
+
+- [FvA Discord server](https://discord.gg/6BDbmMCh) | *de online anarchistische salon van Nederland en België*
 
 ### Telegram
 
@@ -58,6 +59,10 @@ A platform to provide online tools and space for networking, communication and m
 - A member organization.
 
 ## Link tree
+
+### Discord
+
+- [FvA Discord server](https://discord.gg/6BDbmMCh) | *the online anarchist salon of the Netherlands and Belgium*
 ### Telegram
 
 - [@fva_network](https://t.me/fva_network) | Overview of our channels and groups, such as our regional groups or groups per anarchist movement.
