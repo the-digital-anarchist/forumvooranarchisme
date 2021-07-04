@@ -103,4 +103,8 @@ export const StyledRichText = styled.div`
     font-size: 12px;
     padding: 20px 12px;
   }
+  iframe {
+    max-width: 560px;
+    width: 100%;
+  }
 `

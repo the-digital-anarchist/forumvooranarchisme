@@ -17,6 +17,7 @@ const Layout = ({
   searchText,
   noFooter = false,
   isHomePage = false,
+  isWiki = false,
 }) => {
   useGithubToolbarPlugins()
   return (
@@ -30,7 +31,7 @@ const Layout = ({
           searchText={searchText}
           isFixed={isHomePage}
         />
-        <LayoutBodyStyled isHomePage={isHomePage} splitView={splitView}>
+        <LayoutBodyStyled isHomePage={isHomePage} isWiki={isWiki} splitView={splitView}>
           {children}
         </LayoutBodyStyled>
         {!noFooter && <Footer />}
@@ -48,6 +49,7 @@ Layout.propTypes = {
   searchText: string,
   noFooter: bool,
   isHomePage: bool,
+  isWiki: bool,
 }
 
 Layout.defaultProps = {
@@ -55,6 +57,7 @@ Layout.defaultProps = {
   splitView: false,
   noFooter: false,
   isHomePage: false,
+  isWiki: false,
 }
 
 export default Layout

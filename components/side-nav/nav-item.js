@@ -27,6 +27,7 @@ const NavItem = ({ itemData: { slug, children, title, type }, active, currentSlu
     return (
       <NavItemLink
         active={active || isNavActive({ children }, currentSlugKey)}
+        key={currentSlugKey}
         show={showChildrens || active}
         {...(type === "group" && {
           href: "#",

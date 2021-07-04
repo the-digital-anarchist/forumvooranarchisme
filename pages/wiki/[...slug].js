@@ -52,7 +52,7 @@ const DocTemplate = (props) => {
 
   // <Layout showDocsSearcher splitView theme={styleData} searchIndex="tina-starter-alpaca-Docs">
   return (
-    <Layout splitView theme={styleData} searchIndex="tina-starter-alpaca-Docs">
+    <Layout isWiki={true} splitView theme={styleData} searchIndex="tina-starter-alpaca-Docs">
       <Head title={data.frontmatter.title} />
       <SideNav allNestedDocs={nestedDocs} currentSlug={router.query.slug} />
       <div
@@ -81,7 +81,7 @@ const DocTemplate = (props) => {
                     },
                   }}
                 >
-                  <MarkdownWrapper source={data.markdownBody} />
+                  <MarkdownWrapper source={data.markdownBody} escapeHtml={false} />
                 </InlineWysiwyg>
                 {data.frontmatter.last_edited && (
                   <p style={{ fontSize: ".8rem", color: "grey" }}>

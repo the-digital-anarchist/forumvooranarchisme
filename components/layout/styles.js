@@ -40,6 +40,13 @@ export const LayoutBodyStyled = styled.main`
         padding: 80px 0 0 20px;
       }
     `}
+  ${({ isWiki }) =>
+    isWiki &&
+    css`
+      @media all and (max-width: 768px) {
+        flex-direction: column;
+      }
+    `}
   ${({ splitView }) =>
     splitView &&
     css`
