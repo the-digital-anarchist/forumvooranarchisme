@@ -5,6 +5,23 @@ export const TopBarStyled = styled.header`
   padding: 0 24px;
   justify-content: space-between;
   position: relative;
+  ${({ showMobileMenu }) =>
+    showMobileMenu &&
+    css`
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+    `}
+  ${({ isFixed }) =>
+    isFixed &&
+    css`
+      @media all and (min-width: 768px) {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+      }
+    `}
+
   @media all and (min-width: 1024px) {
     display: flex;
   }
@@ -65,7 +82,6 @@ export const NavWrapperStyled = styled.div`
     height: initial;
     flex-direction: row;
     justify-content: flex-end;
-    max-width: 340px;
   }
 `
 

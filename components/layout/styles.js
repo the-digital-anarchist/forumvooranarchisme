@@ -4,9 +4,12 @@ export const LayoutStyled = styled.main`
   margin: 0;
   font-family: Roboto, system-ui, sans-serif;
   width: 100%;
+  min-height: 100%;
   margin: 0 auto;
   color: ${({ theme }) => theme.colors.text};
   background-color: ${({ theme }) => theme.colors.background};
+  display: flex;
+  flex-direction: column;
 
   h1 {
     font-size: 40px;
@@ -25,8 +28,18 @@ export const LayoutBodyStyled = styled.main`
   padding: 0 20px;
   padding-bottom: 1px;
   padding-top: 16px;
+  width: 100%;
   display: flex;
-  width: auto;
+  flex: 1;
+  ${({ isHomePage }) =>
+    isHomePage &&
+    css`
+      @media all and (min-width: 768px) {
+        max-width: 100%;
+        width: 100%;
+        padding: 80px 0 0 20px;
+      }
+    `}
   ${({ splitView }) =>
     splitView &&
     css`

@@ -18,7 +18,7 @@ import {
   IconButton,
 } from "./styles"
 
-const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
+const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText, isFixed = false }) => {
   /* States */
   const [showMobileMenu, setShowMobileMenu] = useState(false)
   const [showMobileSearch, setShowMobileSearch] = useState(false)
@@ -29,7 +29,7 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
   const handleToggleSearchInput = () => setShowMobileSearch(!showMobileSearch)
 
   return (
-    <TopBarStyled>
+    <TopBarStyled isFixed={isFixed} showMobileMenu={showMobileMenu}>
       <LogoWrapperStyled>
         <Link href="/">
           <a>
@@ -69,10 +69,13 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
         <Link href="/wiki/anarchisme-101" passHref>
           <NavBarLink>Anarchisme 101</NavBarLink>
         </Link>
-        <NavBarLink href="https://forum.forumvooranarchisme.nl">Forum</NavBarLink>
         <Link href="/wiki" passHref>
           <NavBarLink>Wiki</NavBarLink>
         </Link>
+        <Link href="/telegram-feed" passHref>
+          <NavBarLink>Telegram feed</NavBarLink>
+        </Link>
+        <NavBarLink href="https://forum.forumvooranarchisme.nl">Forum</NavBarLink>
       </NavWrapperStyled>
     </TopBarStyled>
   )
