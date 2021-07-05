@@ -90,9 +90,11 @@ export const NavBarLink = styled.a`
   font-weight: 400;
   margin-bottom: 48px;
   color: white;
+  text-transform: uppercase;
   text-decoration: none;
   width: 100%;
   text-align: center;
+  font-family: ${({ theme }) => theme.fonts.nav};
   @media all and (min-width: 1024px) {
     margin-right: 32px;
     font-size: 16px;

@@ -14,7 +14,7 @@ export const PostFeedbackStyled = styled.div`
     margin: 0;
     margin-bottom: 44px;
     font-weight: 700;
-    color: #333333;
+    color: ${({ theme }) => theme.colors.text};
     font-size: 16px;
   }
   @media all and (min-width: 768px) {

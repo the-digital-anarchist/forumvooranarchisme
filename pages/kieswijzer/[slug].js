@@ -28,7 +28,7 @@ export const Button = styled.a`
   text-decoration: none;
   font-size: 16px;
   text-align: center;
-  color: #1e1c1c;
+  color: ${({ theme }) => theme.colors.text};
   height: 40px;
   display: flex;
   align-items: center;
@@ -40,12 +40,13 @@ export const Button = styled.a`
   ${({ valueChoice }) =>
     valueChoice &&
     `
-    color: #fff !important;
-    background-color: #1e1c1c;
+    color: ${({ theme }) => theme.colors.text};
+    background-color: ${({ theme }) => theme.colors.background};
   `}
   &:hover {
-    color: #fff;
-    background-color: #1e1c1c;
+    text-decoration: underline;
+    color: ${({ theme }) => theme.colors.text};
+    background-color: ${({ theme }) => theme.colors.background};
   }
   /* @media all and (min-width: 768px) {
     margin-right: 0;

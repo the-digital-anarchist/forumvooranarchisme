@@ -26,7 +26,7 @@ export const NavItemLink = styled.a`
   font-weight: 400;
   line-height: 1.5;
   text-decoration: none;
-  color: #333333;
+  color: ${({ theme }) => theme.colors.text};
   position: relative;
   padding-left: 24px;
   i {
@@ -54,7 +54,7 @@ export const NavItemLink = styled.a`
       color: ${({ theme }) => theme.colors.primary};
       text-decoration: underline;
       .dot {
-        background-color: ${({ theme }) => theme.colors.primary};
+        background-color: ${({ theme }) => theme.colors.background};
       }
     `}
   ${({ show }) =>

@@ -3,6 +3,7 @@ import styled, { css } from "styled-components"
 export const LayoutStyled = styled.main`
   margin: 0;
   font-family: Roboto, system-ui, sans-serif;
+  /* "alte_haas_groteskbold", "Helvetica Neue", Helvetica, Arial, sans-serif */
   width: 100%;
   min-height: 100%;
   margin: 0 auto;
@@ -15,9 +16,20 @@ export const LayoutStyled = styled.main`
     font-size: 40px;
     margin: 0;
     margin-bottom: 16px;
-    color: #1e1c1c;
+    color: ${({ theme }) => theme.colors.text};
     line-height: 56px;
     font-weight: 700;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h4,
+  h6 {
+    font-family: ${({ theme }) => theme.fonts.heading};
+    & > a {
+      text-decoration: none;
+    }
   }
 `
 

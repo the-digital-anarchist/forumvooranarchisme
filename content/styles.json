@@ -5,7 +5,8 @@
   "fonts": {
     "body": "Roboto, system-ui, sans-serif",
     "heading": "Roboto, system-ui, sans-serif",
-    "monospace": "Roboto Mono, monospace"
+    "monospace": "Roboto Mono, monospace",
+    "nav": "'Alte Haas Grotesk Bold V1', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   },
   "fontWeights": {
     "body": 400,
@@ -17,9 +18,9 @@
     "heading": 1.125
   },
   "colors": {
-    "text": "#ffffff",
-    "background": "#1e1c1c",
-    "primary": "#ffffff",
+    "text": "#000",
+    "background": "#fff",
+    "primary": "#000",
     "secondary": "#E83426",
     "muted": "#F6F6F6",
     "highlight": "#eef6ff",

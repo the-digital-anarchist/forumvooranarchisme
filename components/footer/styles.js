@@ -1,9 +1,10 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.footer`
-  max-width: calc(1048px + 40px);
+  background-color: ${({ theme }) => theme.colors.primary};
   margin: 0 auto;
   padding: 20px;
+  width: 100%;
   .linksWrapper {
     padding-top: 32px;
   }
@@ -11,9 +12,7 @@ export const FooterWrapper = styled.footer`
     & > div {
       display: flex;
       align-items: center;
-      padding: 48px 0;
-      max-width: 762px;
-      margin-left: auto;
+      /* padding: 24px 0; */
     }
     .linksWrapper {
       padding-top: 0;
@@ -29,7 +28,7 @@ export const FooterLink = styled.a`
   display: block;
   text-align: center;
   margin-bottom: 24px;
-  color: #333300;
+  color: #fff;
   @media all and (min-width: 768px) {
     margin-bottom: 0;
     margin-right: 40px;
@@ -50,7 +49,7 @@ export const EditWithTinaButton = styled.a`
   text-decoration: none;
   font-size: 16px;
   text-align: center;
-  color: #333333;
+  color: ${({ theme }) => theme.colors.text};
   height: 40px;
   display: flex;
   align-items: center;
@@ -64,12 +63,13 @@ export const EditWithTinaButton = styled.a`
     font-size: 18px;
     position: relative;
     top: -2px;
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.text};
   }
   &:hover {
     /* border-color: #77b1fa; */
     background-color: #000;
     color: #ffffff;
+    font-weight: bold;
     i {
       color: #ffffff;
     }
