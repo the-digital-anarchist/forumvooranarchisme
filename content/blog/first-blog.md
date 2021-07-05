@@ -1,7 +1,7 @@
 ---
 date: '2020-06-05T00:00:00Z'
 author: Author
-description: Placeholder description
+description: Eerste post met uitleg over hoe mensen zelf kunnen posten.
 title: Eerste post
 ---
 Eerste Forum voor Anarchisme blog post.

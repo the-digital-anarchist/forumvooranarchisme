@@ -7,7 +7,7 @@ import matter from "gray-matter"
 import { useGithubMarkdownForm } from "react-tinacms-github"
 import { getGithubPreviewProps, parseMarkdown } from "next-tinacms-github"
 import { InlineWysiwyg } from "react-tinacms-editor"
-
+import styled from "styled-components"
 import Head from "@components/head"
 import Container from "@components/container"
 import Layout from "@components/layout"
@@ -21,11 +21,31 @@ import RichText from "@components/rich-text"
 import { createToc, getBlogPosts } from "@utils"
 import useCreateBlogPage from "../../hooks/useCreateBlogPage"
 
+const dateOptions = { year: "numeric", month: "long", day: "numeric" }
+
+const Meta = styled.span`
+  display: block;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 16px;
+`
+
+const ContentWrapper = styled.div`
+  max-width: 700px;
+  margin: auto;
+`
+
+const BreadCrum = styled.p`
+  margin-bottom: 24px;
+`
+
 const BlogPage = (props) => {
   const cms = useCMS()
   const previewURL = props.previewURL || ""
   const router = useRouter()
   const { asPath } = router
+
   if (!props.file) {
     return <Error statusCode={404} />
   }
@@ -47,17 +67,19 @@ const BlogPage = (props) => {
 
   const [data, form] = useGithubMarkdownForm(props.file, formOptions)
   usePlugin(form)
+  const date = new Date(data.frontmatter.date)
 
   return (
     <Layout>
       <Container>
-        <Head title={`${data.frontmatter.title} | Blog`} />
-        <p>
+        <BreadCrum>
           <Link href="/blog">
             <PrimaryAnchor>Blog</PrimaryAnchor>
           </Link>{" "}
           / {data.frontmatter.title}
-        </p>
+        </BreadCrum>
+        <Head title={`${data.frontmatter.title} | Blog`} />
+
         <InlineForm form={form}>
           <DocWrapper styled={false}>
             <RichText>
@@ -65,21 +87,25 @@ const BlogPage = (props) => {
                 <h1>
                   <InlineTextField name="frontmatter.title" />
                 </h1>
+                <Meta>{`${date.toLocaleDateString("en-US", dateOptions)} | ${
+                  data.frontmatter.author
+                }`}</Meta>
                 {/* {!props.preview && props.Alltocs.length > 0 && <Toc tocItems={props.Alltocs} />} */}
-
-                <InlineWysiwyg
-                  name="markdownBody"
-                  sticky={"calc(var(--tina-toolbar-height) + var(--tina-padding-small))"}
-                  imageProps={{
-                    uploadDir: () => "/images/",
-                    parse: (media) => media.id,
-                    previewSrc(src) {
-                      return cms.media.previewSrc(src)
-                    },
-                  }}
-                >
-                  <MarkdownWrapper source={data.markdownBody} />
-                </InlineWysiwyg>
+                <ContentWrapper>
+                  <InlineWysiwyg
+                    name="markdownBody"
+                    sticky={"calc(var(--tina-toolbar-height) + var(--tina-padding-small))"}
+                    imageProps={{
+                      uploadDir: () => "/images/",
+                      parse: (media) => media.id,
+                      previewSrc(src) {
+                        return cms.media.previewSrc(src)
+                      },
+                    }}
+                  >
+                    <MarkdownWrapper source={data.markdownBody} />
+                  </InlineWysiwyg>
+                </ContentWrapper>
               </main>
             </RichText>
             {/* <PostFeedback /> */}

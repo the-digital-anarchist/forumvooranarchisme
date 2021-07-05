@@ -4,7 +4,7 @@
   "description": "Forum voor Anarchisme",
   "fonts": {
     "body": "Roboto, system-ui, sans-serif",
-    "heading": "Roboto, system-ui, sans-serif",
+    "heading": "'Alte Haas Grotesk Bold V1', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif",
     "monospace": "Roboto Mono, monospace",
     "util": "'Alte Haas Grotesk Bold V1', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   },

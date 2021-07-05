@@ -2,6 +2,10 @@ import styled from "styled-components"
 
 export const StyledRichText = styled.div`
   font-family: ${({ theme }) => theme.fonts.body};
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 100px;
+  }
   & img {
     max-width: 100%;
     width: 100%;
@@ -12,6 +16,9 @@ export const StyledRichText = styled.div`
     margin: 0;
     margin-bottom: 1.5rem;
     letter-spacing: -0.1px;
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+    }
   }
   a {
     color: ${({ theme }) => theme.colors.primary};
@@ -32,6 +39,10 @@ export const StyledRichText = styled.div`
       all: inherit;
     }
   }
+  h1 {
+    text-transform: uppercase;
+  }
+
   h2 {
     font-size: 32px;
     line-height: 36px;

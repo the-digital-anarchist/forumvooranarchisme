@@ -19,6 +19,11 @@ export const LayoutStyled = styled.main`
     color: ${({ theme }) => theme.colors.text};
     line-height: 56px;
     font-weight: 700;
+    @media screen and (min-width: 768px) {
+      font-size: 50px;
+      line-height: 60px;
+      margin-bottom: 24px;
+    }
   }
   h1,
   h2,

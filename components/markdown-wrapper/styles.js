@@ -29,6 +29,10 @@ export const ReactMarkdowStyled = styled(ReactMarkdown)`
     margin-bottom: 0.3rem;
   }
 
+  h1 {
+    text-transform: uppercase;
+  }
+
   h2 {
     font-size: 32px;
     line-height: 36px;

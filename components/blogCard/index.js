@@ -17,6 +17,9 @@ const Title = styled.h2`
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 46px;
+  }
 `
 const Meta = styled.span`
   text-align: center;
@@ -67,7 +70,7 @@ const Button = styled.a`
 
 const Description = styled.p`
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 34px;
 `
 
