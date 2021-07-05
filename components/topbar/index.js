@@ -66,6 +66,9 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText, isFixed = fa
         {/* <Link href="/features" passHref>
           <NavBarLink>Features</NavBarLink>
         </Link> */}
+        <Link href="/blog" passHref>
+          <NavBarLink>Blog</NavBarLink>
+        </Link>
         <Link href="/wiki/anarchisme-101" passHref>
           <NavBarLink>Anarchisme 101</NavBarLink>
         </Link>

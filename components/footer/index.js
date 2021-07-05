@@ -23,7 +23,7 @@ const Footer = ({ preview }) => {
           </section>
         </div>
       </FooterWrapper>
-      {firstStringInPath === "wiki" && <EditLink />}
+      {(firstStringInPath === "wiki" || firstStringInPath === "blog") && <EditLink />}
     </>
   )
 }

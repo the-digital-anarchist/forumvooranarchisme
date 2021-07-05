@@ -6,7 +6,7 @@
     "body": "Roboto, system-ui, sans-serif",
     "heading": "Roboto, system-ui, sans-serif",
     "monospace": "Roboto Mono, monospace",
-    "nav": "'Alte Haas Grotesk Bold V1', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+    "util": "'Alte Haas Grotesk Bold V1', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   },
   "fontWeights": {
     "body": 400,

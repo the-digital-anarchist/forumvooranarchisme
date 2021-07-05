@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import styled from "styled-components"
 import Head from "@components/head"
 import Layout from "@components/layout"
 import Container from "@components/container"
@@ -23,7 +24,8 @@ const Blog = (props) => {
     <Layout theme={styleData}>
       <Head title="Blog" />
       <Container>
-        <h1>Blog</h1>
+        <Title>Blog</Title>
+
         {props.posts.map((post) => {
           return <BlogCard key={post.fileName} post={post} />
         })}
@@ -31,6 +33,11 @@ const Blog = (props) => {
     </Layout>
   )
 }
+
+const Title = styled.h1`
+  text-transform: uppercase;
+  font-family: ${({ theme }) => theme.fonts.util};
+`
 
 /**
  * Fetch data with getStaticProps based on 'preview' mode
