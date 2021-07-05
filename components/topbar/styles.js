@@ -95,6 +95,7 @@ export const NavBarLink = styled.a`
   width: 100%;
   text-align: center;
   font-family: ${({ theme }) => theme.fonts.util};
+  cursor: pointer;
   @media all and (min-width: 1024px) {
     margin-right: 32px;
     font-size: 16px;
@@ -105,6 +106,11 @@ export const NavBarLink = styled.a`
   img {
     max-width: 32px;
   }
+  &:hover,
+  &.selected {
+    text-decoration: underline;
+  }
+
   /* &:last-child {
     display: none;
   } */

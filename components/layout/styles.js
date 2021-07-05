@@ -48,6 +48,12 @@ export const LayoutBodyStyled = styled.main`
   width: 100%;
   display: flex;
   flex: 1;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
   ${({ isHomePage }) =>
     isHomePage &&
     css`

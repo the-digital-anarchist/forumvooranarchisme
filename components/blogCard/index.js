@@ -78,18 +78,20 @@ const BlogCard = ({ post }) => {
   const date = new Date(post.data.frontmatter.date)
   const dateOptions = { year: "numeric", month: "long", day: "numeric" }
   return (
-    <Link href="blog/[slug]" as={`blog/${post.fileName}`}>
-      <StyledAnchor>
-        <BlogCardStyled>
+    <BlogCardStyled>
+      <Link href="blog/[slug]" as={`blog/${post.fileName}`} passHref>
+        <StyledAnchor>
           <Title>{post.data.frontmatter.title}</Title>
-          <Meta>{`${date.toLocaleDateString("en-US", dateOptions)} | ${
-            post.data.frontmatter.author
-          }`}</Meta>
-          <Description>{post.data.frontmatter.description}</Description>
-          <Button>Lees verder</Button>
-        </BlogCardStyled>
-      </StyledAnchor>
-    </Link>
+        </StyledAnchor>
+      </Link>
+      <Meta>{`${date.toLocaleDateString("en-US", dateOptions)} | ${
+        post.data.frontmatter.author
+      }`}</Meta>
+      <Description>{post.data.frontmatter.description}</Description>
+      <Link href="blog/[slug]" as={`blog/${post.fileName}`} passHref>
+        <Button>Lees verder</Button>
+      </Link>
+    </BlogCardStyled>
   )
 }
 

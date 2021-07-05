@@ -1,10 +1,21 @@
+import React from "react"
 import { useState } from "react"
 import { bool } from "prop-types"
-import Link from "next/link"
-
-import GitHubLogo from "../../public/icons/github.svg"
+import { default as LinkNext } from "next/link"
+import { useRouter } from "next/router"
 
 import Search from "@components/search"
+
+const Link = ({ href, children }) => {
+  const router = useRouter()
+
+  let className = children.props.className || ""
+  if (router.pathname === href) {
+    className = `${className} selected`
+  }
+
+  return <LinkNext href={href}>{React.cloneElement(children, { className })}</LinkNext>
+}
 
 // import { theme } from "@utils"
 
@@ -19,13 +30,13 @@ import {
 } from "./styles"
 
 const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText, isFixed = false }) => {
+  const router = useRouter()
   /* States */
   const [showMobileMenu, setShowMobileMenu] = useState(false)
   const [showMobileSearch, setShowMobileSearch] = useState(false)
 
   /* Methods */
   const handleToggleMobileMenu = () => setShowMobileMenu(!showMobileMenu)
-
   const handleToggleSearchInput = () => setShowMobileSearch(!showMobileSearch)
 
   return (

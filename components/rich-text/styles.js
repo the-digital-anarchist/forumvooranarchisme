@@ -2,10 +2,6 @@ import styled from "styled-components"
 
 export const StyledRichText = styled.div`
   font-family: ${({ theme }) => theme.fonts.body};
-  margin-bottom: 60px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 100px;
-  }
   & img {
     max-width: 100%;
     width: 100%;

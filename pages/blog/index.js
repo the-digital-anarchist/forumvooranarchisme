@@ -8,7 +8,7 @@ import { useGlobalStyleForm } from "@hooks"
 import getGlobalStaticProps from "../../utils/getGlobalStaticProps"
 import useCreateBlogPage from "../../hooks/useCreateBlogPage"
 import BlogCard from "@components/blogCard"
-import { reverse } from "ramba"
+import { reverse } from "ramda"
 
 const Blog = (props) => {
   useCreateBlogPage(props.posts)
@@ -25,8 +25,6 @@ const Blog = (props) => {
     <Layout theme={styleData}>
       <Head title="Blog" />
       <Container>
-        <Title>Blog</Title>
-
         {reverse(props.posts).map((post) => {
           return <BlogCard key={post.fileName} post={post} />
         })}
