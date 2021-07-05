@@ -67,6 +67,7 @@ const Button = styled.a`
 
 const Description = styled.p`
   text-align: center;
+  font-size: 24px;
   margin-bottom: 34px;
 `
 
