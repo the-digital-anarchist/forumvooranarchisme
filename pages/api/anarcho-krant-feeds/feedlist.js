@@ -52,6 +52,7 @@ const feedsList = [
   "https://tabularasa.blackblogs.org/feed/",
   "https://aboekenbeurs.gent/feed",
   "https://anprim.org/feed",
+  "https://joesgarage.nl/feed",
   // 'https://lepelfabriek.nl/blog/index.php/feed', // Geen rss
   // 'https://lorem-rss.herokuapp.com/feed?unit=second&interval=30'
 ]
