@@ -45,14 +45,14 @@ const feedsList = [
   "https://afarotterdam.noblogs.org/nieuws/feed",
   "https://anamsterdam.noblogs.org/feed",
   "https://madpride.nl/rss.xml",
+  "https://joesgarage.nl/feed",
+  "https://anprim.org/feed",
   // BE
   "https://affverzet.wordpress.com/feed/",
   "https://gentabc.noblogs.org/feed/",
   "https://antistaatsblad.wordpress.com/feed",
   "https://tabularasa.blackblogs.org/feed/",
   "https://aboekenbeurs.gent/feed",
-  "https://anprim.org/feed",
-  "https://joesgarage.nl/feed",
   // 'https://lepelfabriek.nl/blog/index.php/feed', // Geen rss
   // 'https://lorem-rss.herokuapp.com/feed?unit=second&interval=30'
 ]
