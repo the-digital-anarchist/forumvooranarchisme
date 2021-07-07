@@ -25,13 +25,18 @@ Een platform om online tools en ruimte te bieden voor netwerken, communicatie en
 
 ### Discord
 
-- [FvA Discord server](https://discord.gg/6BDbmMCh) | *de online anarchistische salon van Nederland en België*
+- [FvA Discord server](https://discord.com/invite/RQeqanBZye) | *de online anarchistische salon van Nederland en België*
 
 ### Telegram
 
+We hebben ondertussen een flink netwerk met groepen opgezet op Telegram (zie [@fva_network](https://t.me/fva_network) voor overzicht). Wil je er bij? We vangen nieuwe users op in de [LOBBY](https://t.me/joinchat/sU1zC1uv_8s0ODRk) groep daar stellen we eerst wat vragen om de groepen veilig te houden als je door de vragen bent zullen we een uitnodiging sturen.
+
+- [LOBBY](https://t.me/joinchat/sU1zC1uv_8s0ODRk)
 - [@fva_network](https://t.me/fva_network) | Overzicht van onze kanalen en groepen, zoals onze regio groepen of groepen per anarchistische stroming.
-- [Telegram kanaal](https://t.me/forumvooranarchisme) | Onze main kanaal voor lokaal nieuws, memes en meer met betrekking tot anarchisme in Nederland
-- De [Anarcho Krant](https://t.me/anarcho_krant) telegram kanaal, zelfde als op het forum maar dan in telegram
+
+**Nieuws feed kanalen**
+- [Algemeen kanaal](https://t.me/forumvooranarchisme) | Ons algemeen kanaal voor lokaal nieuws, memes en alles met betrekking tot anarchisme in Nederland.
+- De [Anarcho Krant kanaal](https://t.me/anarcho_krant) telegram kanaal, zelfde als op het forum maar dan in telegram
 
 ### FvA online:
 
@@ -62,13 +67,17 @@ A platform to provide online tools and space for networking, communication and m
 
 ### Discord
 
-- [FvA Discord server](https://discord.gg/6BDbmMCh) | *the online anarchist salon of the Netherlands and Belgium*
+- [FvA Discord server](https://discord.com/invite/RQeqanBZye) | *the online anarchist salon of the Netherlands and Belgium*
 ### Telegram
 
+We have set up quite a network of groups on Telegram (see [@fva_network](https://t.me/fva_network) for overview). Want to join? We welcome new users in the [LOBBY](https://t.me/joinchat/sU1zC1uv_8s0ODRk) group where we first ask some questions to keep the groups safe. When you are through the questions we will send you an invitation.
+
+- [LOBBY](https://t.me/joinchat/sU1zC1uv_8s0ODRk)
 - [@fva_network](https://t.me/fva_network) | Overview of our channels and groups, such as our regional groups or groups per anarchist movement.
 Channels:
+
+**Telegram Channels**
 - [Telegram kanaal](https://t.me/forumvooranarchisme) | Main channel
-- [FvA telegram chat (English only)](https://t.me/joinchat/zQQGqd7j9Do0NzVk)
 ### Fva online
 
 - Our [forum](https://forum.forumvooranarchisme.nl), a social place run by and for anarchists. For sharing news, events, memes and more.
