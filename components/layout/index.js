@@ -16,6 +16,7 @@ const Layout = ({
   searchIndex,
   searchText,
   noFooter = false,
+  noContainer = false,
   isHomePage = false,
   isWiki = false,
 }) => {
@@ -31,7 +32,12 @@ const Layout = ({
           searchText={searchText}
           isFixed={isHomePage}
         />
-        <LayoutBodyStyled isHomePage={isHomePage} isWiki={isWiki} splitView={splitView}>
+        <LayoutBodyStyled
+          isHomePage={isHomePage}
+          isWiki={isWiki}
+          splitView={splitView}
+          noContainer={noContainer}
+        >
           {children}
         </LayoutBodyStyled>
         {!noFooter && <Footer />}
@@ -50,6 +56,7 @@ Layout.propTypes = {
   noFooter: bool,
   isHomePage: bool,
   isWiki: bool,
+  noContainer: bool,
 }
 
 Layout.defaultProps = {

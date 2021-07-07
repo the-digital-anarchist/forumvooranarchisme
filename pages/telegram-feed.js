@@ -4,7 +4,7 @@ import Layout from "@components/layout"
 const Features = () => {
   return (
     <>
-      <Layout noFooter={true}>
+      <Layout noContainer={true} noFooter={true}>
         <Head title="Telegram feed" />
         <iframe
           id="preview"

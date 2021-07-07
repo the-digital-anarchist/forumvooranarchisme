@@ -78,4 +78,10 @@ export const LayoutBodyStyled = styled.main`
         padding-top: 24px;
       }
     `}
+    ${({ noContainer }) =>
+    noContainer &&
+    css`
+      padding: 0;
+      margin: 0 auto !important;
+    `}
 `

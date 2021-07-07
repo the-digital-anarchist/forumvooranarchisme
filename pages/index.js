@@ -39,7 +39,7 @@ const Page = ({ file, preview, styleFile }) => {
           <MarkdownWrapper source={data.markdownBody} />
           {/* <p className="description">{data.description}</p> */}
         </Container>
-        {screenDevice !== "mobile" && (
+        {/* {screenDevice !== "mobile" && (
           <IframeContainer>
             <Iframe
               id="preview"
@@ -47,7 +47,7 @@ const Page = ({ file, preview, styleFile }) => {
               src="https://xn--r1a.website/s/forumvooranarchisme"
             ></Iframe>
           </IframeContainer>
-        )}
+        )} */}
       </Layout>
     </>
   )
