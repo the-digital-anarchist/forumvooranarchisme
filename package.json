@@ -48,6 +48,7 @@
     "react-tinacms-inline": "^0.32.0",
     "remarkable": "^2.0.0",
     "rss-parser": "^3.9.0",
+    "simple-git": "^2.40.0",
     "slugify": "^1.4.0",
     "styled-components": "^5.1.1",
     "styled-normalize": "^8.0.7",
