@@ -7,4 +7,4 @@ title: Protests & Activism
 ## Tools:
 
 * [Blur gezichten en verwijder meta data van foto's | image-scrubber](https://everestpipkin.github.io/image-scrubber/)
-* 
+* [EXIF Purge is a small portable application to remove EXIF meta data from multiple images at once.](http://www.exifpurge.com/)
