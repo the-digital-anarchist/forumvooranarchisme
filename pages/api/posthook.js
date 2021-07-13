@@ -2,7 +2,19 @@ import { writeFile } from "fs"
 import simpleGit from "simple-git"
 import slugify from "slugify"
 import { toMarkdownString } from "@utils"
-const git = simpleGit({ baseDir: `${process.cwd()}/` })
+// import tinaGit from "@tinacms/api-git"
+// import gitClient from "@tinacms/git-client"
+// const git = simpleGit({ baseDir: `${process.cwd()}/` })
+
+import { Octokit } from "@octokit/core"
+import { createPullRequest } from "octokit-plugin-create-pull-request"
+
+const MyOctokit = Octokit.plugin(createPullRequest)
+
+const TOKEN = process.env.GITHUB_ACCESS_TOKEN // create token at https://github.com/settings/tokens/new?scopes=repo
+const octokit = new MyOctokit({
+  auth: TOKEN,
+})
 
 export function previewLines(text, maxChars = 300, maxLines = 1) {
   return (
@@ -20,12 +32,12 @@ export default async (req, res) => {
   // res.clearPreviewData()
   //   res.status(200).end()
   //   console.log(JSON.parse(req.body))
-  console.log(typeof (await JSON.parse(req.body)))
+  // console.log(typeof (await JSON.parse(req.body)))
   const request = await JSON.parse(JSON.parse(req.body))
   console.log(typeof request, request)
   const { op = null, data = null } = request
   console.log(op, data)
-  if (op === "CreatePost") {
+  if (op === "CreatePost" || op === "EditPost") {
     const { body, name, published, thumbnail_url, ap_id } = data?.post_view.post
     const { name: author, actor_id } = data?.post_view.creator
     const slug = slugify(name, { lower: true })
@@ -50,48 +62,42 @@ export default async (req, res) => {
 
     console.log(markdowenSting)
 
-    writeFile(`${process.cwd()}/content/blog/${slug}.md`, markdowenSting, (err) => {
-      if (err) throw err
-      console.log("The file has been saved!")
-    })
+    // Returns a normal Octokit PR response
+    // See https://octokit.github.io/rest.js/#octokit-routes-pulls-create
+    await octokit
+      .createPullRequest({
+        owner: process.env.GITHUB_OWNER,
+        repo: process.env.REPO,
+        title: slug,
+        body: "pull request description",
+        base: "main" /* optional: defaults to default branch */,
+        head: `pull-request-post-${Date.now()}`,
+        changes: [
+          {
+            /* optional: if `files` is not passed, an empty commit is created instead */
+            files: {
+              [`content/blog/${slug}.md`]: markdowenSting,
+              // "path/to/file2.png": {
+              //   content: frt,
+              //   encoding: "base64",
+              // },
+              // deletes file if it exists,
+              // "path/to/file3.txt": null,
+              // updates file based on current content
+              // updating file4.txt (if it exists)
+              // "path/to/file4.txt": ({ exists, encoding, content }) => {
+              //   // do not create the file if it does not exist
+              //   if (!exists) return null
 
-    /**
-     * Make branch or branch exist checkout to that branch
-     */
+              //   return Buffer.from(content, encoding).toString("utf-8").toUpperCase()
+              // },
+            },
+            commit: "Blog post commit",
+          },
+        ],
+      })
+      .then((pr) => console.log(pr.data.number))
 
-    try {
-      await git.checkoutBranch(`blog/${slug}`, "main", "-d")
-    } catch (exception) {
-      console.warn(exception)
-      await git.checkout(`blog/${slug}`)
-      // await git.checkoutBranch(`blog/${slug}`, "main")
-    }
-
-    try {
-      // Add all files in blog dir
-      await git.add(["content/blog/"])
-
-      // Commit all added files
-      await git.commit("Blog post submit")
-
-      // Pull from master (not needed here I think)
-      // await git.pull()
-
-      // Push to master
-      await git.push("origin", `blog/${slug}`, "--set-upstream")
-      // Check out back
-      await git.checkout("main")
-    } catch (exception) {
-      console.warn(exception)
-    }
+    res.status(200).end()
   }
-
-  //   .commit("...").push('origin', 'master');
-
-  // const status = await git.status()
-  // console.log(status)
-
-  res.status(200).end()
-  //   const requestBuffer = await buffer(req)
-  //   console.log(requestBuffer)
 }
