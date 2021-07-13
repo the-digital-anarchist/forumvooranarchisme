@@ -28,16 +28,10 @@ export function previewLines(text, maxChars = 300, maxLines = 1) {
 }
 
 export default async (req, res) => {
-  //   console.log(JSON.stringify(req.body, null, 4))
-  // res.clearPreviewData()
-  //   res.status(200).end()
-  //   console.log(JSON.parse(req.body))
-  // console.log(typeof (await JSON.parse(req.body)))
   const request = await JSON.parse(JSON.parse(req.body))
-  console.log(typeof request, request)
   const { op = null, data = null } = request
-  console.log(op, data)
   if (op === "CreatePost" || op === "EditPost") {
+    console.log(data)
     const { body, name, published, thumbnail_url, ap_id } = data?.post_view.post
     const { name: author, actor_id } = data?.post_view.creator
     const slug = slugify(name, { lower: true })
@@ -60,7 +54,7 @@ export default async (req, res) => {
       rawMarkdownBody: body,
     })
 
-    console.log(markdowenSting)
+    // console.log(markdowenSting)
 
     // Returns a normal Octokit PR response
     // See https://octokit.github.io/rest.js/#octokit-routes-pulls-create

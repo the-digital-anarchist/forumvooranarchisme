@@ -20,6 +20,7 @@ import { usePlugin, useCMS } from "tinacms"
 import RichText from "@components/rich-text"
 import { createToc, getBlogPosts } from "@utils"
 import useCreateBlogPage from "../../hooks/useCreateBlogPage"
+import { Button } from "../../components/ui"
 
 const dateOptions = { year: "numeric", month: "long", day: "numeric" }
 
@@ -38,6 +39,14 @@ const ContentWrapper = styled.div`
 
 const BreadCrum = styled.p`
   margin-bottom: 24px;
+`
+
+const Img = styled.img`
+  max-width: 100%;
+  max-height: 450px;
+  margin: auto;
+  display: block;
+  margin-bottom: 25px;
 `
 
 const BlogPage = (props) => {
@@ -68,6 +77,7 @@ const BlogPage = (props) => {
   const [data, form] = useGithubMarkdownForm(props.file, formOptions)
   usePlugin(form)
   const date = new Date(data.frontmatter.date)
+  const { title, author, authorUrl, image, source } = data.frontmatter
 
   return (
     <Layout>
@@ -78,8 +88,8 @@ const BlogPage = (props) => {
           </Link>{" "}
           / {data.frontmatter.title}
         </BreadCrum>
-        <Head title={`${data.frontmatter.title} | Blog`} />
-
+        <Head title={`${title} | Blog`} />
+        {image && <Img src={image} alt={title} />}
         <InlineForm form={form}>
           <DocWrapper styled={false}>
             <RichText>
@@ -87,9 +97,16 @@ const BlogPage = (props) => {
                 <h1>
                   <InlineTextField name="frontmatter.title" />
                 </h1>
-                <Meta>{`${date.toLocaleDateString("en-US", dateOptions)} | ${
-                  data.frontmatter.author
-                }`}</Meta>
+
+                {authorUrl ? (
+                  <Meta>
+                    {`${date.toLocaleDateString("en-US", dateOptions)} | `}{" "}
+                    <a href={authorUrl}>{author}</a>
+                  </Meta>
+                ) : (
+                  <Meta>{`${date.toLocaleDateString("en-US", dateOptions)} | ${author}`}</Meta>
+                )}
+
                 {/* {!props.preview && props.Alltocs.length > 0 && <Toc tocItems={props.Alltocs} />} */}
                 <ContentWrapper>
                   <InlineWysiwyg
@@ -111,6 +128,11 @@ const BlogPage = (props) => {
             {/* <PostFeedback /> */}
           </DocWrapper>
         </InlineForm>
+        {source && (
+          <Link href={source + "#comments"} passHref>
+            <Button>Comments</Button>
+          </Link>
+        )}
       </Container>
     </Layout>
   )

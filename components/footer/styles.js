@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Button } from "../ui"
 
 export const FooterWrapper = styled.footer`
   background-color: ${({ theme }) => theme.colors.primary};
@@ -36,6 +37,13 @@ export const FooterLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
+`
+
+export const CreatePostButtonStyle = styled(Button)`
+  bottom: 0;
+  right: 16px;
+  position: fixed;
+  margin-bottom: 16px;
 `
 
 export const EditWithTinaButton = styled.a`

@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { FooterWrapper, FooterLink, EditWithTinaButton } from "./styles"
+import { FooterWrapper, FooterLink, EditWithTinaButton, CreatePostButtonStyle } from "./styles"
+
 import { useCMS } from "tinacms"
 import { useRouter } from "next/router"
 
@@ -23,7 +24,8 @@ const Footer = ({ preview }) => {
           </section>
         </div>
       </FooterWrapper>
-      {(firstStringInPath === "wiki" || firstStringInPath === "blog") && <EditLink />}
+      {firstStringInPath === "wiki" && <EditLink />}
+      {firstStringInPath === "blog" && <CreatePostButton />}
     </>
   )
 }
@@ -36,4 +38,11 @@ export const EditLink = () => {
     </EditWithTinaButton>
   )
 }
+
+const CreatePostButton = () => (
+  <Link href="https://forum.forumvooranarchisme.nl/create_post?community_id=20" passHref>
+    <CreatePostButtonStyle>Create post</CreatePostButtonStyle>
+  </Link>
+)
+
 export default Footer

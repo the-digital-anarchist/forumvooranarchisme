@@ -42,7 +42,7 @@ const feedsList = [
   "https://www.vrijebond.org/feed",
   "https://rumoer.noblogs.org/feed/",
   "https://lepelfabriek.nl/rss.xml",
-  "https://afarotterdam.noblogs.org/nieuws/feed",
+  "https://afarotterdam.noblogs.org/feed",
   "https://anamsterdam.noblogs.org/feed",
   "https://madpride.nl/rss.xml",
   "https://joesgarage.nl/feed",

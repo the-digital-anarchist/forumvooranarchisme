@@ -44,15 +44,15 @@ export const LayoutBodyStyled = styled.main`
   margin: 0 auto;
   padding: 0 20px;
   padding-bottom: 1px;
-  padding-top: 16px;
+  /* padding-top: 16px; */
   width: 100%;
   display: flex;
   flex: 1;
   margin-top: 20px;
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    /* margin-top: 40px; */
+    margin-bottom: 80px;
   }
   ${({ isHomePage }) =>
     isHomePage &&
