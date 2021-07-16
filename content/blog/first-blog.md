@@ -9,14 +9,14 @@ Eerste Forum voor Anarchisme blog post met uitleg over hoe mensen zelf kunnen po
 _English below_
 
 Wil je zelf ook een artikel plaatsen?
-Dat kan, druk dan op de 'Edit website' knop rechts onderin.
-Login in met een Github account of maak een account aan, gebruik een anoniem email account als je anoniem wil blijven en een VPN is ook een goed idee. Als je dat hebt kun je zelf een artikel plaatsen hier. Na dat je hem submit moeten wij het alleen nog goedkeuren maar dat is alles.
+Dat kan, druk dan op de 'Create post' knop rechts onderin of via deze [link](https://forum.forumvooranarchisme.nl/c/blog).
+Het submitten van nieuwe blog post gebeurd via ons blog kanaal op het forum. Alle geposten berichten daar komen in een wachtrij te staan die we dan alleen nog moeten goed keuren. Maar daarna verschijnen ze op ons blog. Alle aanpassingen aan de post worden ook door gestuurd dus de artikelen zijn altijd bij te werken. Happy posting.
 
 Je kunt ook je artikel opsturen naar ons opsturen als je dat makkelijker vind, naar kameraad\[@\]forumvooranarchisme.nl (email zonder de \[\] gebruiken).
 
 \[ENG\]
 Would you like to post an article yourself?
-You can, just hit the 'Edit website' button in the bottom right.
-Login with a Github account or create an account, use an anonymous email account if you want to stay anonymous and a VPN is also a good idea. Once you have that you can post your own article here. After you submit it we just have to approve it but that's all.
+You can, just press the 'Create post' button at the bottom right or via this [link](https://forum.forumvooranarchisme.nl/c/blog).
+The submission of new blog posts happens via our blog channel on the forum. All posted messages there will be in a queue for approval. But after that they will appear on our blog. All changes to the post are also forwarded so the articles can always be updated. Happy posting.
 
 You can also send your article to us if you find that easier, to kameraad\[@\]forumvooranarchisme.nl (email without the \[\]).
